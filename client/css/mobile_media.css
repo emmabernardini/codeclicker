@@ -1,0 +1,205 @@
+@media (max-width: 800px) {
+  .base_modal_container {
+    display: none;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    left: 0;
+  }
+
+  /* remove the shop and cv from main page */
+  .main__container > section:first-child,
+  section:nth-child(3) {
+    display: none;
+  }
+
+  /*Reduce height of the main content */
+  .main__content {
+    height: 79vh;
+  }
+
+  /* get the click section width larger */
+  .main__container > section:nth-child(1),
+  section:nth-child(2),
+  section:nth-child(3) {
+    width: 95vw;
+  }
+
+  /*it changes the flex-direction from ROW to COLUMN*/
+  .main__container {
+    flex-direction: column;
+  }
+
+  /*display the mobile navbar*/
+  .MOBILE_main__content--navbar {
+    display: flex;
+    align-items: center;
+  }
+
+  /*hide footer */
+  .footer__container {
+    display: none;
+  }
+
+  /*hide header container we don't want anymore */
+  .header__content,
+  .header__content--logo,
+  .header__content--center {
+    display: none;
+  }
+
+  /* HEADER */
+
+  .main__resume--stat-master {
+    font-size: medium;
+  }
+
+  .main__resume-grid-item--title {
+    font-size: 0.7rem;
+  }
+
+  .main__resume--stat {
+    flex-direction: column;
+  }
+
+  .header__container {
+    height: 6vh;
+    margin: 2vh auto;
+  }
+
+  .modal_container {
+    width: 95vw;
+  }
+
+  .main__resume-grid-container {
+    grid-template-rows: repeat(3, 5vh);
+    display: grid;
+    min-height: 40%;
+    width: 100%;
+    margin: 4vh auto;
+  }
+
+  /*CHALLENGE MODAL*/
+
+  /*from row flex to column flex and scroll*/
+  .modal__challenge-container {
+    flex-direction: column;
+    overflow-y: scroll;
+    padding: 1vh;
+  }
+
+  /*Change width of text */
+  .modal__challenge-subcontainer--left {
+    width: 100%;
+    flex-direction: column;
+  }
+
+  .modal__challenge-subcontainer--right {
+    flex-direction: column;
+  }
+
+  .modal__challenge-code-editor-container {
+    width: 90%;
+  }
+
+  .modal__challenge__subcontainer {
+    width: 100%;
+    padding: 2vh 0;
+  }
+
+  .modal_container-challenge {
+    width: 97vw;
+    overflow-y: scroll;
+    height: 90vh;
+  }
+
+  .modal__challenge-keys-and-btn-container {
+    width: 100%;
+  }
+
+  .modal__challenge-code-submit-container {
+    flex-direction: row;
+    margin: 0;
+  }
+
+  #keyboard {
+    margin-bottom: 2vh;
+  }
+
+  /* SHOP */
+  .main__shop--language-logo {
+    width: 16vw;
+  }
+
+  .main__shop--language-subtitle {
+    overflow: auto;
+    display: none;
+  }
+
+  .main__shop--language-title {
+    width: 18vw;
+  }
+
+  .main__shop--language-title-container {
+    align-items: baseline;
+  }
+
+  .main__shop--language-explain {
+    gap: 5px;
+  }
+
+  /* MODAL SIGN UP */
+
+  .modal_inscription_container {
+    width: 95vw;
+  }
+
+  /* MODAL EXP */
+
+  .modal_exp_container {
+    width: 86vw;
+  }
+
+  /* MODAL PROFILE */
+
+  .modal__update_item-container-hidden,
+  .modal__update_item-container {
+    width: 65vw;
+  }
+
+  /* MODAL EXPLANATION */
+
+  .pop-up-explication-mobile {
+    width: 95vw;
+    display: flex;
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+  }
+
+  /* LES HALO */
+
+  .coffee {
+    top: 73%;
+    left: 7.5%;
+    height: 17%;
+    width: auto;
+  }
+
+  .cat {
+    top: 57%;
+    left: 70.5%;
+    height: 40%;
+    width: auto;
+  }
+}
+
+/* GIF */
+
+#clickable_gif-container {
+  overflow: hidden;
+}

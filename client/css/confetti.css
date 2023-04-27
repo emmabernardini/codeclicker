@@ -1,0 +1,21 @@
+#confetti-holder {
+  position: fixed;
+  height: 100vh;
+  pointer-events: none;
+  width: 100%;
+  top: 50px;
+  z-index: 2;
+  text-align: center;
+  vertical-align: middle;
+  display: "none";
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#e0DQ82qcIov1 {
+  height: 150vh;
+  min-width: 100vh;
+  min-height: 600px;
+  margin: 0;
+}

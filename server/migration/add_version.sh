@@ -1,0 +1,1 @@
+sqitch add 1.init -n 'Initialisations tables'

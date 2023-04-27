@@ -1,0 +1,7 @@
+server/node_modules
+server/.env
+server/logs/*
+server/migration/sqitch.plan
+
+client/node_modules
+client/.env
